@@ -3,7 +3,7 @@ var Google = 0;
 var msg = new SpeechSynthesisUtterance();
 var voices = window.speechSynthesis.getVoices();
 console.log("cargaando pagina");
-speechSynthesis.speak(new SpeechSynthesisUtterance("Yo sere tu traductor gracias por usar mi codigo")); 
+speechSynthesis.speak(new SpeechSynthesisUtterance("Yo sere tu traductor y gracias por usar mi codigo")); 
 
 //**********************************************************
 //         CONFIGURACION DE VOZ DE API GOOGLE
