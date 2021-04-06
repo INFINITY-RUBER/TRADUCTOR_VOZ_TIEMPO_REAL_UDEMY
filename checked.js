@@ -2,7 +2,7 @@ var lastText = "";
 var Google = 0;
 var msg = new SpeechSynthesisUtterance();
 var voices = window.speechSynthesis.getVoices();
-console.log("cargaando pagina");
+console.log("cargando pagina");
 speechSynthesis.speak(new SpeechSynthesisUtterance("Yo sere tu traductor y gracias por usar mi codigo")); 
 
 //**********************************************************
@@ -14,11 +14,6 @@ speechSynthesis.speak(new SpeechSynthesisUtterance("Yo sere tu traductor y graci
 // 3 Google UK English Male 
 // 4 Google español 
 // 5 Google español de Estados Unidos 
-// 6 Google français 
-// 7 Google हिन्दी 
-// 8 Google Bahasa Indonesia 
-// 9 Google italiano 
-// 10 Google 日本語 
 // 11 Google 한국의 
 // 12 Google Nederlands 
 // 13 Google polski 
@@ -30,15 +25,18 @@ speechSynthesis.speak(new SpeechSynthesisUtterance("Yo sere tu traductor y graci
 // **************************************************
 // cargue el idioma deseado segun su numero
 
-  Google = 5
-
-// ***********************
+Google = 5
 
 msg.voice = voices[Google];
+
+// **************************************************
+// otras configuraciones:
+
 msg.rate = 1.19; // 0.1 to 2
 msg.volume = 1; // 0 to 1
 msg.pitch = 0; //0 to 2
 
+// **************************************************
 
 function check() {
   try {
