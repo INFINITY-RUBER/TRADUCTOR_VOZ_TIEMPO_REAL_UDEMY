@@ -7,7 +7,7 @@
 
 - ## Segundo **bajar** el repositorio y **Descomprimirlo** en su PC  https://github.com/INFINITY-RUBER/TRADUCTOR_VOZ_TIEMPO_REAL_UDEMY/archive/refs/heads/master.zip
 
-- ## Tercero agregar la extension a su navegador chrome, en su navegador ir a (**chrome://extensions/**) abilitar el **Modo de desarrollador** --> dar click en **Cargar extension sin empaquetar** 
+- ## Tercero agregar la extension a su navegador chrome, en su navegador ir a (**chrome://extensions/**) habilitar el **Modo de desarrollador** --> dar click en **Cargar extension sin empaquetar** 
 <div align="center">
   <img src="imagenes/chrome.png">  
 </div>
