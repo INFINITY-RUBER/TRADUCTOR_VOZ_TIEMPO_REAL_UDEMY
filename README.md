@@ -91,7 +91,7 @@
 
 
 # GRACIAS GRACIAS GRACIAS .... 
-# Estoy sin trabajo y si esta extension te sirvio en tu aprendisaje no olvides hacer tu donacion.  ;)
+# Estoy sin trabajo. y si esta extension te sirvió en tu aprendisaje no olvides hacer tu donacion....   :)
 
 
 ## bitcoin: `32FkR97LHVmzHEr8LsbhkU29BnFqjHqwxC`
