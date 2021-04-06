@@ -35,8 +35,8 @@ speechSynthesis.speak(new SpeechSynthesisUtterance("Yo sere tu traductor y graci
 // ***********************
 
 msg.voice = voices[Google];
-msg.volume = 1; // 0 to 1
 msg.rate = 1.19; // 0.1 to 2
+msg.volume = 1; // 0 to 1
 msg.pitch = 0; //0 to 2
 
 
