@@ -1,9 +1,11 @@
 var lastText = "";
+var currentText = "";
+
 var Google = 0;
 var msg = new SpeechSynthesisUtterance();
 var voices = window.speechSynthesis.getVoices();
 console.log("cargando pagina");
-speechSynthesis.speak(new SpeechSynthesisUtterance("Yo sere tu traductor y gracias por usar mi codigo")); 
+speechSynthesis.speak(new SpeechSynthesisUtterance("hola Yo sere tu traductor y gracias por usar mi codigo")); 
 
 //**********************************************************
 //         CONFIGURACION DE VOZ DE API GOOGLE
@@ -41,8 +43,9 @@ msg.pitch = 0; //0 to 2
 function check() {
   try {
     var nowText = document.querySelectorAll('p[data-purpose="transcript-cue-active"] font')[1];
+      
   } catch (error) {
-    console.log("cargaando pagina");
+    console.log(" error cargaando pagina");
     
   }
   if (typeof nowText !== "undefined"){
@@ -50,7 +53,7 @@ function check() {
     var currentText = "";
     currentText = nowText.innerText;  // tomar el texto
 
-    if (lastText !== currentText) {
+    if (lastText !== currentText && window.speechSynthesis.pending == false) {
       msg.text = currentText;
       speechSynthesis.speak(msg);
       lastText = currentText;
@@ -60,7 +63,9 @@ function check() {
   }
   else {
     console.clear(MessageEvent)
-  }  
+    
+  } 
+   
   
 }
 
